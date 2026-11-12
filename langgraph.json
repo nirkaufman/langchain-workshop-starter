@@ -1,0 +1,10 @@
+{
+  "node_version": "22",
+  "dependencies": [
+    "."
+  ],
+  "env": ".env",
+  "graphs": {
+    "agent": "./src/agent.ts:agent"
+  }
+}

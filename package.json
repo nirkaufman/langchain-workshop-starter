@@ -1,0 +1,35 @@
+{
+  "name": "langchain-workshop-starter",
+  "version": "1.0.0",
+  "description": "Starter project for the LangChain one-day workshop: one agent, every dependency you need for the day.",
+  "author": "Nir Kaufman",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.16"
+  },
+  "scripts": {
+    "dev": "langgraphjs dev",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/classic": "^1.0.61",
+    "@langchain/core": "^1.4.0",
+    "@langchain/langgraph": "^1.7.3",
+    "@langchain/mcp-adapters": "^2.0.3",
+    "@langchain/openai": "^1.8.4",
+    "@langchain/tavily": "^1.2.1",
+    "@langchain/textsplitters": "^1.0.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "dotenv": "^18.0.10",
+    "langchain": "^1.6.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@langchain/langgraph-cli": "^1.7.1",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}
